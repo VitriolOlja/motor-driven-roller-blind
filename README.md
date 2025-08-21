@@ -12,7 +12,8 @@ This project aims to collect the information regarding the building of a motor d
 
 To roll the blind a plastic gear is attached to a beaded string which functions like a chain. Attaching a luggage scale and pulling the string down to roll the blind up gave a maximal reading of 1.3 kg (with a mean of about 1.1 kg and a minimum of about 0.9kg). The method of making the measurement can be seen in the gif below.
 
-<img src="images/luggage_scale-output.gif" width="300" />
+| <img src="images/luggage_scale-output.gif" width="300" style="border: 1px solid #ccc; padding: 5px;" /> |
+|:----------------------------------------------------------------------------------------------------:|
 
 The beaded string is currently attached to a gear approximately 4 cm in diameter, with 16 teeth.  
 My initial plan is to connect a motor to a second gear of similar size and attach the string to that gear. This allows me to avoid modifying the existing system, which is already functioning, and still retain the option of manual operation.
@@ -26,7 +27,7 @@ $$
 T = F \cdot R
 $$
 
-where $T$ is torque, $ is the force, and $R$ is the lever arm (in this case, the gear radius), the radius is:
+where $T$ is torque, $F$ is the force, and $R$ is the lever arm (in this case, the gear radius), the radius is:
 
 $$
   R = \frac{4}{2} = 2\,\text{cm} = 0.02\,\text{m}
@@ -45,7 +46,7 @@ $$
   T = 25.6 N \cdot cm \cdot 101.9716 gf / N = 2605.4 gf \dot cm
 $$
 
-Give or take with a little extra friction, maybe around $30 gf \cdot cm$ would be nice.
+Give or take with a little extra friction, maybe around $3000 gf \cdot cm$ would be nice.
 
 Now what if it gets stuck?
 
